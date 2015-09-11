@@ -1,0 +1,15 @@
+Matlab code for The Optimization of 3D Surface Reconstruction using
+neural network-based photometric stereo (NN-based-PS).
+
+This project aims to:
+- optimize the implementation of NN-based-PS using matrix based
+computation instead of the conventional for-loop iteration
+- analyze the process of combining the surface-normal and the albedo
+using PCA, vector addition, and surface mean.
+
+The face images used are from yalefaces database B.
+ftp://plucky.cs.yale.edu/CVC/pub/images/yalefacesB/
+
+The main algorithm of NN-based PS was based on paper:
+Neural-Network-Based Photometric
+Stereo for 3D Surface Reconstruction, Wen-Chang-Chen.2006.
